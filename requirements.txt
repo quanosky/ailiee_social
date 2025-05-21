@@ -1,0 +1,4 @@
+snscrape
+instaloader
+python-dotenv
+requests
