@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "DISCORD_WEBHOOK": "",
+      "TWITTER_USERNAME": "",
+      "INSTAGRAM_USERNAME": ""
+    }
+  },
+  "start": "python3 main.py"
+}
