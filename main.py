@@ -4,6 +4,13 @@ import requests
 from dotenv import load_dotenv
 import snscrape.modules.twitter as sntwitter
 import instaloader
+import certifi
+import os
+import ssl
+
+# Ensure system uses proper SSL certs
+os.environ['SSL_CERT_FILE'] = certifi.where()
+ssl._create_default_https_context = ssl.create_default_context
 
 load_dotenv()
 

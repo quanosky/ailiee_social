@@ -2,3 +2,4 @@ snscrape
 instaloader
 python-dotenv
 requests
+certifi
